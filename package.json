@@ -15,13 +15,14 @@
   },
   "author": "Bekir Emre Topuz",
   "license": "ISC",
+  "engines": { 
+    "node": "10.16.3" 
+   },
   "bugs": {
     "url": "https://github.com/bekiremretopuz/pixideploy/issues"
   },
   "homepage": "https://github.com/bekiremretopuz/pixideploy#readme",
-  "dependencies": { 
-  },
-  "devDependencies": {
+  "dependencies": {
     "awesome-typescript-loader": "^5.2.1",
     "filemanager-webpack-plugin": "^2.0.5",
     "html-webpack-plugin": "^3.2.0",
@@ -32,5 +33,6 @@
     "webpack-cli": "^3.3.9",
     "webpack-dev-server": "^3.9.0",
     "webpack-merge": "^4.2.2"
-  }
+  },
+  "devDependencies": {}
 }
