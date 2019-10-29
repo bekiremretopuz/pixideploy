@@ -1,0 +1,35 @@
+{
+  "name": "pixideploy",
+  "version": "1.0.0",
+  "description": "deploy test",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.dev.js",
+    "serve": "webpack-dev-server --config webpack.dev.js --color --progress --inline --hot",
+    "start": "npm run build && npm run serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bekiremretopuz/pixideploy.git"
+  },
+  "author": "Bekir Emre Topuz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bekiremretopuz/pixideploy/issues"
+  },
+  "homepage": "https://github.com/bekiremretopuz/pixideploy#readme",
+  "dependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "filemanager-webpack-plugin": "^2.0.5",
+    "html-webpack-plugin": "^3.2.0",
+    "http-server": "^0.11.1",
+    "source-map-loader": "^0.2.4",
+    "typescript": "^3.6.4",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.9.0",
+    "webpack-merge": "^4.2.2"
+  },
+  "devDependencies": {}
+}
