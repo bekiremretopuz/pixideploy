@@ -15,14 +15,15 @@
   },
   "author": "Bekir Emre Topuz",
   "license": "ISC",
-  "engines": { 
-    "node": "10.16.3" 
-   },
+  "engines": {
+    "node": "10.16.3"
+  },
   "bugs": {
     "url": "https://github.com/bekiremretopuz/pixideploy/issues"
   },
   "homepage": "https://github.com/bekiremretopuz/pixideploy#readme",
   "dependencies": {
+    "@types/pixi.js": "^5.0.0",
     "awesome-typescript-loader": "^5.2.1",
     "filemanager-webpack-plugin": "^2.0.5",
     "html-webpack-plugin": "^3.2.0",

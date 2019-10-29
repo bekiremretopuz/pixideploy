@@ -67,6 +67,18 @@ module.exports = merge(common, {
             }
         })
     ],
+    plugins: [
+        new FileManagerPlugin({
+            onEnd: {
+                copy: [
+                    {
+                        source: path.resolve(__dirname, 'lib'),
+                        destination: path.resolve(__dirname, outputDir) + '/lib'
+                    }
+                ]
+            }
+        })
+    ],
     devServer: {
         contentBase: path.join(__dirname, outputDir),
         compress: false,

@@ -1,0 +1,45 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": ".",
+    "strictNullChecks": true,
+    "moduleResolution": "node",
+    "target": "es5",
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "declaration": false,
+    "noImplicitAny": true,
+    "removeComments": true,
+    "typeRoots": [
+      "node_modules/@types",
+      "def"
+    ],
+    "paths": {
+      "app/*": ["src/scripts/app/*"],
+      "lib/*": ["lib/*"], 
+      "pixi-assets-loader": ["lib/dacaher/pixi-assets-loader"],
+      "fpsmeter": ["lib/darsain/fpsmeter/fpsmeter"],
+      "screenfull": ["lib/sindresorhus/screenfull/screenfull"], 
+      "gsap": ["lib/greensock/greensock-js"],
+      "pixi-layers": ["lib/pixijs/pixi-layers/pixi-layers"],
+      "pixi-particles": ["lib/pixijs/pixi-particles/pixi-particles"],
+      "pixi-spine": ["lib/pixijs/pixi-spine/pixi-spine"], 
+      "webfont": ["lib/pixijs/webfont-loader/webfont-loader"], 
+      "pixi-filters": ["lib/pixijs/pixi-filters"],
+      "@pixi/filter-*": ["lib/pixijs/pixi-filters/filters/filter-*"],
+      "howler": ["lib/goldfire/howler.js"], 
+      "typescript-collections/*": ["lib/basarat/typescript-collections/*"]
+    }
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "filesGlob": [
+		"src/**/*.ts",
+		"src/**/*.json"
+	],
+  "exclude": [
+    "node_modules",
+    "**/lib"
+  ]
+}
